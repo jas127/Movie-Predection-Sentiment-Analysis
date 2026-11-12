@@ -174,16 +174,6 @@ This repository is optimized for one-click deployment on **Streamlit Community C
 4. Set the **Main file path** to `app.py`.
 5. Click **Deploy**. Streamlit Cloud will automatically install dependencies and launch the platform.
 
----
-
-## 💡 Interview Discussion Guide
-
-When presenting this project for **Data Analyst**, **Business Analyst**, **Product Analyst**, or **Technology Consultant** interviews:
-
-- **Data Integrity & Governance:** Discuss how you implemented non-destructive preprocessing and automated data validation rules rather than silently dropping imperfect rows.
-- **Critical Model Auditing:** Explain how identifying post-release information leakage in `Vote_Count` showed that a model with $R^2 = 0.528$ was actually explaining popularity rather than forecasting success.
-- **Empirical Rigor in NLP:** Share how verifying VADER's real-world accuracy on long-form reviews ($63.6\%$ vs. the claimed $85\%$) highlighted the difference between dictionary matching and semantic comprehension.
-- **Stakeholder Communication:** Highlight the use of evidence-tagging (*Descriptive*, *Correlational*, *Model Evaluation*) to help non-technical stakeholders distinguish observed patterns from causal claims.
 
 ---
 
